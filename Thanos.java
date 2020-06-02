@@ -28,6 +28,7 @@ public class Thanos {
             }
         };
         Map<Hero, Flower> party = new TreeMap<>(comparator);
+
         party.put(hulk, rose);
         party.put(thor, rose);
         party.put(scarletWitch, rose);
